@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 body {
-  background: #428bca;
-  font-family: "Roboto", sans-serif;
+  background: #2ed0bf;
+  font-family: "Poppins", sans-serif;
   margin: 0; }
 
 h1.logo {
   color: #ffffff;
-  font-family: 'Pacifico', sans-serif;
-  font-size: 4em; }
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  padding-bottom: 1em;
+  padding-top: 1em; }
 
 h1.end {
   position: relative;
@@ -50,12 +53,12 @@ h5 {
   right: 20px;
   bottom: 10px;
   font-size: 40px;
-  color: #428bca;
+  color: #2ed0bf;
   float: right;
   cursor: pointer;
   z-index: 2; }
   #next-btn:hover {
-    color: #b9d4ec; }
+    color: #abece5; }
 
 #prev-btn {
   position: absolute;
@@ -67,7 +70,7 @@ h5 {
   float: right;
   cursor: pointer; }
   #prev-btn:hover {
-    color: #b9d4ec; }
+    color: #abece5; }
 
 #input-group {
   position: relative;
@@ -101,13 +104,13 @@ h5 {
     color: #9e9e9e; }
 
 #input-progress {
-  border-bottom: 3px solid #428bca;
+  border-bottom: 3px solid #2ed0bf;
   width: 0;
   transition: width 0.6s ease-in-out; }
 
 #progress-bar {
   position: absolute;
-  background: #b9d4ec;
+  background: #abece5;
   height: 10px;
   width: 0;
   transition: width 0.5s ease-in-out; }
